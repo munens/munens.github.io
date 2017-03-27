@@ -1,0 +1,22 @@
+{
+  "name": "amphitheatre-socket-server",
+  "version": "1.0.0",
+  "description": "A socket server for reciveing project solutions and comments in real time.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "socket",
+    "server"
+  ],
+  "author": "Munene Kaumbutho",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.15.3",
+    "express": "^4.14.1",
+    "node-uuid": "^1.4.7",
+    "utf-8-validate": "^3.0.1",
+    "ws": "^2.1.0"
+  }
+}
